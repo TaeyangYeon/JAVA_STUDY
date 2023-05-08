@@ -35,7 +35,12 @@ public class Variable {
   // 2. boolean : 'true', 'false' 두개의 값만 표회되는 1byte의 논리형 변수
   boolean result = false;
 
-  // 3. byte : 1byte 크기의 정수 _ 2의 7승
+  /**
+   * 정수형으로 선언된 값이 최대값과 최소값을 넘어가게 되면 오버플로우 된다
+   * 최소값 -1 = 최대값
+   * 최대값 +1 = 최소값
+   */
+  // 3. byte : 1byte 크기의 정수 _ 2의 7승 (저장 공간 절약이 필요할 때 사용)
   byte num1 = 127;
 
   // 4. short : 2byte 크기의 정수 _ 2의 15승 (c언어와 호환을 위해 사용)
