@@ -23,7 +23,7 @@ public class Switch {
         break;
       case 3 :
         num1 -= 3;
-        break;
+        break; // 마지막 문장엔 'break' 생략 가능
     }
 
     /**
