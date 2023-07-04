@@ -100,7 +100,7 @@ public class Foo {
      * 입력값 두개와 리턴값이 모두 다를 것을 가장
      * 람다 표현식에서 입력값이 두 개 이상일 땐 소괄호 생략 불가
      */
-    BiFunction<String, Integer, String> fooMethod8 = (String integer1, Integer integer2) -> integer1 + integer2;
+    BiFunction<String, Integer, String> fooMethod8 = (String string, Integer integer) -> string + integer;
     fooMethod8.apply("number=", 2);
 
     /**
