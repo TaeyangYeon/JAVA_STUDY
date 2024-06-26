@@ -22,6 +22,7 @@ public class If {
     /**
      * 조건식 거짓일 때
      * 조건식을 건너뜀
+     * test
      */
     if (num2 < num1) {
       num1 -= 1; //실행되지 않음
